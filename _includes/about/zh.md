@@ -1,8 +1,8 @@
 ## 朱方志
-出生年月：1991.10
-爱好特长：羽毛球、乒乓球
-联系电话：17682343187
-电子邮箱：zfz1015@outlook.com
+- 出生年月：1991.10
+- 爱好特长：羽毛球、乒乓球
+- 联系电话：17682343187
+- 电子邮箱：zfz1015@outlook.com
 	   
 ## 工作经历                                                               
 - 2017.2-2018.11	浙江核新同花顺网络信息股份有限公司	NLP算法工程师
@@ -29,8 +29,8 @@
 - 2011 年 11 月获得安徽大学一等奖学金
 - 2011 年 11 月获得安徽大学“暑期社会实践先进个人”称号
 ## 论文发表                                                             
-[1] Fangzhi Zhu, Rui yan, Yong Sun, “Improved Minimum Squared Error Method for Robust Classification”, Proceedings of 2014 IEEE 3rd International Conference on Cloud Computing and Intelligence Systems, November 27-29, Shenzhen & Hong Kong , China.
-[2] Fangzhi Zhu, Jie Wen, Yong Xu, “Self-Quotient Image for Face Recognition Based on Wiener Filter”, International Conference on Intelligence Science and Big Data Engineering, May 13 –15, 2016. Guangzhou, China.
+- [1] Fangzhi Zhu, Rui yan, Yong Sun, “Improved Minimum Squared Error Method for Robust Classification”, Proceedings of 2014 IEEE 3rd International Conference on Cloud Computing and Intelligence Systems, November 27-29, Shenzhen & Hong Kong , China.
+- [2] Fangzhi Zhu, Jie Wen, Yong Xu, “Self-Quotient Image for Face Recognition Based on Wiener Filter”, International Conference on Intelligence Science and Big Data Engineering, May 13 –15, 2016. Guangzhou, China.
 
 ## 项目经历                                                             
 - 对话系统 (2018.12-至今)
@@ -49,7 +49,7 @@
 该项目主要用于算法数据集的扩充。由于公司存在很多未标注的语料，对于很多需要扩充语料的任务来说，每次都是手工去聚类或者用算法跑一遍语料挑些打分比较低的语料，效率比较低，效果也不是很好，因此针对该问题做了一个用于扩充语料的主动学习框架，可用于分类任务、匹配任务、序列标注任务的语料扩充。采样方法基于uniform、margin、information and diverse等，通过结合对应的模型进行语料扩充。
 
 
-自我评价                                                             
-●拥有积极向上的生活态度，乐观豁达，性格开朗。
-●诚实稳重，思维缜密，对本专业相关领域有浓厚的兴趣，具有很强的自主学习能力。
+## 自我评价                                                             
+- 拥有积极向上的生活态度，乐观豁达，性格开朗。
+- 诚实稳重，思维缜密，对本专业相关领域有浓厚的兴趣，具有很强的自主学习能力。
 
