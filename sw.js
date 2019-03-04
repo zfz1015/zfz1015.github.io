@@ -20,7 +20,7 @@ const PRECACHE_LIST = [
   "./js/hux-blog.min.js",
   "./js/snackbar.js",
   "./img/icon_wechat.png",
-  "./img/avatar-hux.jpg",
+  "./img/avatar-xxx.jpg",
   "./img/home-bg.jpg",
   "./img/404-bg.jpg",
   "./css/hux-blog.min.css",
@@ -130,7 +130,7 @@ self.addEventListener('activate', event => {
 
 var fetchHelper = {
 
-  fetchThenCache: function(request){
+  fetchThenCache: function(request){f
     // Requests with mode "no-cors" can result in Opaque Response,
     // Requests to Allow-Control-Cross-Origin: * can't include credentials.
     const init = { mode: "cors", credentials: "omit" } 
