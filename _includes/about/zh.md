@@ -9,14 +9,16 @@
 - 2018.12-至今		浙江涂鸦科技有限公司	NLP算法工程师
 
 ## 教育背景                                                               
-- 2014.9-2017.1		哈尔滨工业大学 (推免, 年级排名前10%) 	计算机科学与技术     		硕士学位
-- 2010.9-2014.7		安徽大学 (专业排名前5%)		软件工程     		学士学位
+- 2014.9-2017.1,哈尔滨工业大学 (推免, 年级排名前10%),计算机科学与技术,硕士学位
+- 2010.9-2014.7,安徽大学 (专业排名前5%),软件工程,学士学位
+
 ## 专业技能                                                             
 - 拥有扎实的算法、数据结构等基础
 - 熟悉自然语言处理，熟悉常用的机器学习、深度学习算法
 - 熟练使用C/C++编程语言以及具备C++项目研发经验
 - 熟悉Vim编辑器及linux下C++、python编程
 - 通过大学英语四六级 (CET-4/6)
+
 ## 获得奖励                                                             
 - 2016 年 07 月获得哈尔滨工业大学一等奖学金
 - 2015 年 07 月获得哈尔滨工业大学一等奖学金
@@ -28,6 +30,7 @@
 - 2011 年 12 月获得安徽大学“三好学生”、“社会实践奖”
 - 2011 年 11 月获得安徽大学一等奖学金
 - 2011 年 11 月获得安徽大学“暑期社会实践先进个人”称号
+
 ## 论文发表                                                             
 - [1] Fangzhi Zhu, Rui yan, Yong Sun, “Improved Minimum Squared Error Method for Robust Classification”, Proceedings of 2014 IEEE 3rd International Conference on Cloud Computing and Intelligence Systems, November 27-29, Shenzhen & Hong Kong , China.
 - [2] Fangzhi Zhu, Jie Wen, Yong Xu, “Self-Quotient Image for Face Recognition Based on Wiener Filter”, International Conference on Intelligence Science and Big Data Engineering, May 13 –15, 2016. Guangzhou, China.
@@ -47,7 +50,6 @@
 
 - 主动学习 (2018.5-2018.5)
 该项目主要用于算法数据集的扩充。由于公司存在很多未标注的语料，对于很多需要扩充语料的任务来说，每次都是手工去聚类或者用算法跑一遍语料挑些打分比较低的语料，效率比较低，效果也不是很好，因此针对该问题做了一个用于扩充语料的主动学习框架，可用于分类任务、匹配任务、序列标注任务的语料扩充。采样方法基于uniform、margin、information and diverse等，通过结合对应的模型进行语料扩充。
-
 
 ## 自我评价                                                             
 - 拥有积极向上的生活态度，乐观豁达，性格开朗。
