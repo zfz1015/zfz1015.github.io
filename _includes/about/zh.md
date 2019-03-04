@@ -32,10 +32,6 @@
 - 2011 年 11 月获得安徽大学一等奖学金
 - 2011 年 11 月获得安徽大学“暑期社会实践先进个人”称号
 
-## 论文发表                                                             
-- [1] Fangzhi Zhu, Rui yan, Yong Sun, “Improved Minimum Squared Error Method for Robust Classification”, Proceedings of 2014 IEEE 3rd International Conference on Cloud Computing and Intelligence Systems, November 27-29, Shenzhen & Hong Kong , China.
-- [2] Fangzhi Zhu, Jie Wen, Yong Xu, “Self-Quotient Image for Face Recognition Based on Wiener Filter”, International Conference on Intelligence Science and Big Data Engineering, May 13 –15, 2016. Guangzhou, China.
-
 ## 项目经历                                                             
 - **对话系统 (2018.12-至今)**  
 该项目用于智能家居场景智能音箱、智能遥控器等交互场景，支持以人机对话的方式控制家居状态。目前主要负责该系统的对话管理以及自然语言生成模块。该系统基于开源的rasa框架进行深度修改，修改后支持基于多意图的栈式对话管理。
@@ -51,6 +47,10 @@
 
 - **主动学习 (2018.5-2018.5)**  
 该项目主要用于算法数据集的扩充。由于公司存在很多未标注的语料，对于很多需要扩充语料的任务来说，每次都是手工去聚类或者用算法跑一遍语料挑些打分比较低的语料，效率比较低，效果也不是很好，因此针对该问题做了一个用于扩充语料的主动学习框架，可用于分类任务、匹配任务、序列标注任务的语料扩充。采样方法基于uniform、margin、information and diverse等，通过结合对应的模型进行语料扩充。
+
+## 论文发表                                                             
+- [1] Fangzhi Zhu, Rui yan, Yong Sun, “Improved Minimum Squared Error Method for Robust Classification”, Proceedings of 2014 IEEE 3rd International Conference on Cloud Computing and Intelligence Systems, November 27-29, Shenzhen & Hong Kong , China.
+- [2] Fangzhi Zhu, Jie Wen, Yong Xu, “Self-Quotient Image for Face Recognition Based on Wiener Filter”, International Conference on Intelligence Science and Big Data Engineering, May 13 –15, 2016. Guangzhou, China.
 
 ## 自我评价                                                             
 - 拥有积极向上的生活态度，乐观豁达，性格开朗。
