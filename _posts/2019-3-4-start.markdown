@@ -1,17 +1,16 @@
 ---
 layout:     post
-title:      "任务型对话系统"
+title:      "let's go!"
 subtitle:   ""
-date:       2019-03-4
+date:       2019-03-04
 author:     "zfz"
 header-img: "img/post-bg-see-u-xxx.jpg"
 tags:
   - 生活
 ---
 
-# 博客已经诞生，从今天开始记录我的日常
+## 博客已经诞生，从今天开始记录我的日常
 
-## 任务型对话系统
 
 
 
