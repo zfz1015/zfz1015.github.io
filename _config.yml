@@ -14,7 +14,7 @@ future: true
 # SNS settings
 RSS: false
 zhihu_username:     zhu-fang-zhi
-github_username:    zfz1015
+github_username:    zhufz
 twitter_username:   zfz1015
 csdn_username: zfz1015
 #facebook_username:  xxx
