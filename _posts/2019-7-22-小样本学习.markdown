@@ -1,3 +1,4 @@
+# 小样本学习
 解决one shot learning, few shot learning, zero shot learning之类的问题。
 对于包含 C 个不同的类别，每个类别有 K 个样本的 support set，一般称其为 C-way，K-shot。为了实现对网络的训练，将 training set 分成和 support set 及 testing set，文中将其分别称为 sample set 与 query set（或者叫support set与query set）
 
