@@ -30,9 +30,9 @@ Meta Learning从结合角度上看可以分成三大块：Supervised Learning，
 
 【2018，Dynamic Few-Shot Visual Learning without Forgetting】（分类网络增量学习的一个典型思想）该论文是在“Low-Shot Learning with Imprinted Weights”上做了改进。
 （1）对于新增类别如何计算类向量的问题，文中既考虑了所有新增样本encode结果的均值：
-
+![](https://github.com/zhufz/zhufz.github.io/blob/master/img/%E6%9C%AA%E5%91%BD%E5%90%8D%E5%9B%BE%E7%89%871.png?raw=true)
 也加入了encode向量与base类向量计算的attention表示：
-
+![](https://github.com/zhufz/zhufz.github.io/blob/master/img/%E6%9C%AA%E5%91%BD%E5%90%8D%E5%9B%BE%E7%89%872.png?raw=true)
 
 
 （2）论文对于encode向量与类向量的点积行为做了改进，将向量做了l2归一化，即相当于使用余弦相似度作为softmax的输入。
