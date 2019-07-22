@@ -1,28 +1,24 @@
-# 小样本学习
+## 小样本学习
+
 解决one shot learning, few shot learning, zero shot learning之类的问题。
 对于包含 C 个不同的类别，每个类别有 K 个样本的 support set，一般称其为 C-way，K-shot。为了实现对网络的训练，将 training set 分成和 support set 及 testing set，文中将其分别称为 sample set 与 query set（或者叫support set与query set）
 
-
-
-
-参考：
-	1. 小样本学习（Few-shot Learning）综述
+## 参考：
+	
+1. 小样本学习（Few-shot Learning）综述
 	https://mp.weixin.qq.com/s/rlwyBQ7GAfGT53VaP1anEA
 
-	2. 当小样本遇上机器学习 fewshot learning
-         https://blog.csdn.net/mao_feng/article/details/78939864
-
-
+2. 当小样本遇上机器学习 fewshot learning
+	 https://blog.csdn.net/mao_feng/article/details/78939864
 3.meta learning
-https://mp.weixin.qq.com/s/EbiC-y-75FYCg3qMIgtHOw
+	https://mp.weixin.qq.com/s/EbiC-y-75FYCg3qMIgtHOw
 
 
-
-meta learning 与few  shot  learning的区别：
+## meta learning 与few  shot  learning的区别
 Meta Learning从结合角度上看可以分成三大块：Supervised Learning，Unsupervised Learning/Generative Model以及Reinforcement Learning。Meta Learning在Supervised Learning上的应用，其实也就是Few Shot Learning
 
 
-相关论文
+## 相关论文
 【2016】matching  networks：常规的c way  k shot思路，进行N个task的训练，使用query跟support set所有向量计算attention的结果来表示query，然后将其与每个support set中的样本计算余弦相似度，再进行softmax归一化概率。
 
 【2017】prototypical   networks:在 suport set上计算类向量（通过计算每个类的均值得到），然后query set每个样本跟类向量计算欧式距离，从而计算loss。
