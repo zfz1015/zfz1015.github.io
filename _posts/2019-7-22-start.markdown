@@ -1,0 +1,50 @@
+解决one shot learning, few shot learning, zero shot learning之类的问题。
+对于包含 C 个不同的类别，每个类别有 K 个样本的 support set，一般称其为 C-way，K-shot。为了实现对网络的训练，将 training set 分成和 support set 及 testing set，文中将其分别称为 sample set 与 query set（或者叫support set与query set）
+
+
+
+
+参考：
+	1. 小样本学习（Few-shot Learning）综述
+	https://mp.weixin.qq.com/s/rlwyBQ7GAfGT53VaP1anEA
+
+	2. 当小样本遇上机器学习 fewshot learning
+         https://blog.csdn.net/mao_feng/article/details/78939864
+
+
+3.meta learning
+https://mp.weixin.qq.com/s/EbiC-y-75FYCg3qMIgtHOw
+
+
+
+meta learning 与few  shot  learning的区别：
+Meta Learning从结合角度上看可以分成三大块：Supervised Learning，Unsupervised Learning/Generative Model以及Reinforcement Learning。Meta Learning在Supervised Learning上的应用，其实也就是Few Shot Learning
+
+
+相关论文
+【2016】matching  networks：常规的c way  k shot思路，进行N个task的训练，使用query跟support set所有向量计算attention的结果来表示query，然后将其与每个support set中的样本计算余弦相似度，再进行softmax归一化概率。
+
+【2017】prototypical   networks:在 suport set上计算类向量（通过计算每个类的均值得到），然后query set每个样本跟类向量计算欧式距离，从而计算loss。
+
+【2018】relation net与prototypical network类似，也需要计算类向量prototypical vector，然后将query与每个类向量concat，送到relation net中计算相似度（这里的relation net代替了余弦相似度或欧式距离等度量方式）
+
+【2018，Low-Shot Learning with Imprinted Weights 】（分类网络增量学习的一个典型思想）该文主要考虑了使用softmax分类的情况下，如何动态添加新类别而不需要重新训练问题，其将softmax loss层的全连接参数作为类向量，并且对于新增的样本计算网络的倒数第二层的encode结果作为最后一层全连接层需要拼接的向量（对于few shot，即新增类别样本数量大于的情况下，将所有样本encode的结果取平均值作为类向量）。
+
+【2018，Dynamic Few-Shot Visual Learning without Forgetting】（分类网络增量学习的一个典型思想）该论文是在“Low-Shot Learning with Imprinted Weights”上做了改进。
+（1）对于新增类别如何计算类向量的问题，文中既考虑了所有新增样本encode结果的均值：
+
+也加入了encode向量与base类向量计算的attention表示：
+
+
+
+（2）论文对于encode向量与类向量的点积行为做了改进，将向量做了l2归一化，即相当于使用余弦相似度作为softmax的输入。
+
+【2019，A Closer Look At Few-shot Classification】该文是一篇综述型文章，分别在同等情况下对matching network,prototypical network, relation net, maml四种小样本算法进行了深度分析，并且跟两种baseline方法进行了对比（baseline:包括预训练获取权重+新任务微调，baseline++使用余弦相似度代替点积计算特征向量与类向量的相似度）。实验结果表明这四种方法在跨度较大的任务上迁移效果并不好，相反baseline++的方法能取得还不错的结果。
+
+
+
+【未知模型元学习法（Model-Agnostic Meta-Learning ，MAML）】
+
+
+在一个batch中，算法在每个task上的Dtrain计算梯度，在Dtest上计算损失，这就相当于试探步，每个task试探不同的方向，最后将整个batch的试探结果（Dtest的loss）综合起来更新参数。
+(多个task总的算loss，每个task提前走n步，最后一步计算loss)
