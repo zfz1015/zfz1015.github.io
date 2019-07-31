@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      "小样本学习"
+subtitle:   ""
+date:       2019-07-22
+author:     "zhufz"
+tags:
+  - NLP
+---
+
 ## 小样本学习
 
 解决one shot learning, few shot learning, zero shot learning之类的问题。
