@@ -1,10 +1,10 @@
 # Site settings
 title: zhufz
-SEOTitle: Sun.R@in的博客 | Sun.R@in Blog
+SEOTitle: zhufz的博客 | zhufz Blog
 header-img: img/home-bg.jpg
 email: zfz1015@outlook.com
-description: "Sun.R@in的个人博客，与你一起发现更大的世界。"
-keyword: "zfz, 朱方志, nlp"
+description: "zhufz的个人博客，与你一起发现更大的世界。"
+keyword: "nlp,C++,java,python,dl,ml"
 url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
