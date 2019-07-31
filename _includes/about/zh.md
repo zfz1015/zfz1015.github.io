@@ -3,7 +3,7 @@
 - 2010.09-2014.07	安徽大学 (专业排名前5%)	软件工程	学士学位
 
 ## 专业技能
-- NLP research地址：https://github.com/zhufz/nlp_research
+- NLP research地址：[https://github.com/zhufz/nlp_research](https://github.com/zhufz/nlp_research)
 - 熟悉自然语言处理，熟悉常用的机器学习、深度学习算法，熟悉tensorflow，了解pytorch
 - 熟悉Vim编辑器及Linux下C++、python编程
 - 通过大学英语四六级 (CET-4/6)
